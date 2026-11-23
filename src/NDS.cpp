@@ -1640,7 +1640,15 @@ void NDS::RunTimer(u32 tid, s32 cycles)
 {
     Timer* timer = &Timers[tid];
 
-    timer->Counter += (cycles << timer->CycleShift);
+    u32 inc = cycles << timer->CycleShift;
+    if (tid >= 4 && SoundClockRate != 0x10000)
+    {
+        u64 scaled = (u64)inc * SoundClockRate + SoundClockFrac[tid - 4];
+        inc = (u32)(scaled >> 16);
+        SoundClockFrac[tid - 4] = (u32)(scaled & 0xFFFF);
+    }
+
+    timer->Counter += inc;
     while (timer->Counter >> 26)
     {
         timer->Counter -= (1 << 26);
@@ -1664,6 +1672,22 @@ void NDS::RunTimers(u32 cpu)
     if (timermask & 0x8) RunTimer((cpu<<2)+3, cycles);
 
     TimerTimestamp[cpu] += cycles;
+}
+
+void NDS::SetSoundClockRate(double rate)
+{
+    u32 fixed = (u32)std::clamp(rate * 65536.0 + 0.5, 1.0, (double)0x100000);
+    if (fixed == SoundClockRate) return;
+
+    // bring the ARM7 timers up to date at the old rate first
+    RunTimers(1);
+    SoundClockRate = fixed;
+    SPU.SetClockRate(fixed);
+}
+
+void NDS::SetSpeedHint(double ratio)
+{
+    SpeedHint = (u16)std::clamp(ratio * 256.0 + 0.5, 1.0, 65535.0);
 }
 
 const s32 TimerPrescaler[4] = {0, 6, 8, 10};
@@ -3178,6 +3202,9 @@ u32 NDS::ARM9IORead32(u32 addr)
     // Since it's a 64 bit reg. the CPU will access it in two parts:
     case 0x04FFFA20: return (u32)(GetSysClockCycles(0) & 0xFFFFFFFF);
     case 0x04FFFA24: return (u32)(GetSysClockCycles(0) >> 32);
+
+    // speed hint, see NDS::SetSpeedHint
+    case 0x04FFFA40: return (0x5350u << 16) | SpeedHint;
     }
 
     if ((addr >= 0x04000000 && addr < 0x04000060) || (addr == 0x0400006C))

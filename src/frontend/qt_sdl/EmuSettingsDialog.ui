@@ -17,7 +17,7 @@
    </sizepolicy>
   </property>
   <property name="windowTitle">
-   <string>Emu settings - melonDS</string>
+   <string>에뮬레이션 설정 - melonDS</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <property name="sizeConstraint">
@@ -30,7 +30,7 @@
      </property>
      <widget class="QWidget" name="tab">
       <attribute name="title">
-       <string>General</string>
+       <string>일반</string>
       </attribute>
       <layout class="QFormLayout" name="formLayout_4">
        <item row="1" column="1">
@@ -52,7 +52,7 @@
           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When loading a ROM, completely skip the regular boot process (&amp;quot;Nintendo DS&amp;quot; screen) to boot the ROM directly.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;Note: if your firmware dump isn't bootable, the ROM will be booted directly regardless of this setting.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
          <property name="text">
-          <string>Boot game directly</string>
+          <string>게임 바로 실행</string>
          </property>
         </widget>
        </item>
@@ -78,7 +78,7 @@
           </sizepolicy>
          </property>
          <property name="text">
-          <string>Console type:</string>
+          <string>콘솔 종류:</string>
          </property>
         </widget>
        </item>
@@ -86,13 +86,13 @@
      </widget>
      <widget class="QWidget" name="tab_2">
       <attribute name="title">
-       <string>DS-mode</string>
+       <string>DS 모드</string>
       </attribute>
       <layout class="QGridLayout" name="gridLayout">
        <item row="3" column="2">
         <widget class="QPushButton" name="btnFirmwareBrowse">
          <property name="text">
-          <string>Browse...</string>
+          <string>찾아보기...</string>
          </property>
         </widget>
        </item>
@@ -112,14 +112,14 @@
        <item row="3" column="0">
         <widget class="QLabel" name="label_3">
          <property name="text">
-          <string>DS firmware:</string>
+          <string>DS 펌웨어:</string>
          </property>
         </widget>
        </item>
        <item row="2" column="2">
         <widget class="QPushButton" name="btnBIOS7Browse">
          <property name="text">
-          <string>Browse...</string>
+          <string>찾아보기...</string>
          </property>
         </widget>
        </item>
@@ -182,7 +182,7 @@
           </sizepolicy>
          </property>
          <property name="text">
-          <string>Browse...</string>
+          <string>찾아보기...</string>
          </property>
          <property name="autoDefault">
           <bool>false</bool>
@@ -195,7 +195,7 @@
           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Allows using external user-provided BIOS and firmware dumps.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
          <property name="text">
-          <string>Use external BIOS/firmware files</string>
+          <string>외부 BIOS/펌웨어 파일 사용</string>
          </property>
         </widget>
        </item>
@@ -203,13 +203,13 @@
      </widget>
      <widget class="QWidget" name="tab_4">
       <attribute name="title">
-       <string>DSi-mode</string>
+       <string>DSi 모드</string>
       </attribute>
       <layout class="QGridLayout" name="gridLayout_2">
        <item row="14" column="2">
         <widget class="QPushButton" name="btnDSiSDFolderBrowse">
          <property name="text">
-          <string>Browse...</string>
+          <string>찾아보기...</string>
          </property>
         </widget>
        </item>
@@ -233,14 +233,14 @@
           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Simulate a SD card being inserted in the DSi's SD slot.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
          <property name="text">
-          <string>Enable DSi SD card</string>
+          <string>DSi SD 카드 사용</string>
          </property>
         </widget>
        </item>
        <item row="4" column="2">
         <widget class="QPushButton" name="btnDSiNANDBrowse">
          <property name="text">
-          <string>Browse...</string>
+          <string>찾아보기...</string>
          </property>
         </widget>
        </item>
@@ -257,7 +257,7 @@
           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Sync the emulated SD card to the given folder. The folder's contents will be copied to the SD image, and any change made to the SD image will be reflected to the folder.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
          <property name="text">
-          <string>Sync SD to folder:</string>
+          <string>SD 카드를 폴더와 동기화:</string>
          </property>
         </widget>
        </item>
@@ -285,7 +285,7 @@
        <item row="0" column="0" colspan="3">
         <widget class="QLabel" name="label_15">
          <property name="text">
-          <string>DSi mode requires external DSi BIOS/firmware/NAND</string>
+          <string>DSi 모드에는 외부 DSi BIOS/펌웨어/NAND가 필요합니다</string>
          </property>
         </widget>
        </item>
@@ -295,7 +295,7 @@
           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Boot the system from scratch by running the full boot ROMs, instead of starting with the second-stage loader. Requires a full BIOS/bootROM dump.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
          <property name="text">
-          <string>Full BIOS boot</string>
+          <string>전체 BIOS로 부팅</string>
          </property>
         </widget>
        </item>
@@ -309,7 +309,7 @@
        <item row="12" column="0">
         <widget class="QLabel" name="label_13">
          <property name="text">
-          <string>Image size:</string>
+          <string>이미지 크기:</string>
          </property>
         </widget>
        </item>
@@ -323,21 +323,21 @@
        <item row="3" column="0">
         <widget class="QLabel" name="label_7">
          <property name="text">
-          <string>DSi firmware:</string>
+          <string>DSi 펌웨어:</string>
          </property>
         </widget>
        </item>
        <item row="11" column="0">
         <widget class="QLabel" name="label_10">
          <property name="text">
-          <string>SD card image:</string>
+          <string>SD 카드 이미지:</string>
          </property>
         </widget>
        </item>
        <item row="2" column="2">
         <widget class="QPushButton" name="btnDSiBIOS7Browse">
          <property name="text">
-          <string>Browse...</string>
+          <string>찾아보기...</string>
          </property>
         </widget>
        </item>
@@ -357,14 +357,14 @@
        <item row="1" column="2">
         <widget class="QPushButton" name="btnDSiBIOS9Browse">
          <property name="text">
-          <string>Browse...</string>
+          <string>찾아보기...</string>
          </property>
         </widget>
        </item>
        <item row="11" column="2">
         <widget class="QPushButton" name="btnDSiSDBrowse">
          <property name="text">
-          <string>Browse...</string>
+          <string>찾아보기...</string>
          </property>
         </widget>
        </item>
@@ -378,7 +378,7 @@
        <item row="3" column="2">
         <widget class="QPushButton" name="btnDSiFirmwareBrowse">
          <property name="text">
-          <string>Browse...</string>
+          <string>찾아보기...</string>
          </property>
         </widget>
        </item>
@@ -388,7 +388,7 @@
           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Make the emulated SD card read-only.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
          <property name="text">
-          <string>Read-only SD</string>
+          <string>SD 카드 읽기 전용</string>
          </property>
         </widget>
        </item>
@@ -417,20 +417,20 @@
      </widget>
      <widget class="QWidget" name="tab_3">
       <attribute name="title">
-       <string>CPU emulation</string>
+       <string>CPU 에뮬레이션</string>
       </attribute>
       <layout class="QFormLayout" name="formLayout_5">
        <item row="0" column="0">
         <widget class="QCheckBox" name="chkEnableJIT">
          <property name="text">
-          <string>Enable JIT recompiler</string>
+          <string>JIT 재컴파일러 사용</string>
          </property>
         </widget>
        </item>
        <item row="1" column="0">
         <widget class="QLabel" name="label_9">
          <property name="text">
-          <string>Maximum JIT block size:</string>
+          <string>최대 JIT 블록 크기:</string>
          </property>
         </widget>
        </item>
@@ -450,21 +450,21 @@
        <item row="2" column="0">
         <widget class="QCheckBox" name="chkJITBranchOptimisations">
          <property name="text">
-          <string>Branch optimisations</string>
+          <string>분기 최적화</string>
          </property>
         </widget>
        </item>
        <item row="3" column="0">
         <widget class="QCheckBox" name="chkJITLiteralOptimisations">
          <property name="text">
-          <string>Literal optimisations</string>
+          <string>리터럴 최적화</string>
          </property>
         </widget>
        </item>
        <item row="4" column="0">
         <widget class="QCheckBox" name="chkJITFastMemory">
          <property name="text">
-          <string>Fast memory</string>
+          <string>고속 메모리</string>
          </property>
         </widget>
        </item>
@@ -491,14 +491,14 @@
        <item row="1" column="2">
         <widget class="QPushButton" name="btnDLDISDBrowse">
          <property name="text">
-          <string>Browse...</string>
+          <string>찾아보기...</string>
          </property>
         </widget>
        </item>
        <item row="4" column="2">
         <widget class="QPushButton" name="btnDLDIFolderBrowse">
          <property name="text">
-          <string>Browse...</string>
+          <string>찾아보기...</string>
          </property>
         </widget>
        </item>
@@ -512,7 +512,7 @@
        <item row="2" column="0">
         <widget class="QLabel" name="label_12">
          <property name="text">
-          <string>Image size:</string>
+          <string>이미지 크기:</string>
          </property>
         </widget>
        </item>
@@ -522,7 +522,7 @@
           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Sync the emulated SD card to the given folder. The folder's contents will be copied to the SD image, and any change made to the SD image will be reflected to the folder.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
          <property name="text">
-          <string>Sync SD to folder:</string>
+          <string>SD 카드를 폴더와 동기화:</string>
          </property>
         </widget>
        </item>
@@ -539,7 +539,7 @@
           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enable the built-in DLDI driver, to let homebrew access files from an emulated SD card.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
          <property name="text">
-          <string>Enable DLDI (for homebrew)</string>
+          <string>DLDI 사용(홈브루용)</string>
          </property>
         </widget>
        </item>
@@ -566,7 +566,7 @@
        <item row="1" column="0">
         <widget class="QLabel" name="label_11">
          <property name="text">
-          <string>SD card image:</string>
+          <string>SD 카드 이미지:</string>
          </property>
         </widget>
        </item>
@@ -576,7 +576,7 @@
           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Make the emulated SD card read-only.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
          <property name="text">
-          <string>Read-only SD</string>
+          <string>SD 카드 읽기 전용</string>
          </property>
         </widget>
        </item>
@@ -584,13 +584,13 @@
      </widget>
      <widget class="QWidget" name="tab_6">
       <attribute name="title">
-       <string>Devtools</string>
+       <string>개발 도구</string>
       </attribute>
       <layout class="QGridLayout" name="gridLayout_3">
        <item row="1" column="0">
         <widget class="QLabel" name="label_16">
          <property name="text">
-          <string>ARM9 port</string>
+          <string>ARM9 포트</string>
          </property>
         </widget>
        </item>
@@ -610,14 +610,14 @@
        <item row="2" column="0">
         <widget class="QLabel" name="label_17">
          <property name="text">
-          <string>ARM7 port</string>
+          <string>ARM7 포트</string>
          </property>
         </widget>
        </item>
        <item row="0" column="0" colspan="3">
         <widget class="QCheckBox" name="cbGdbEnabled">
          <property name="text">
-          <string>Enable GDB stub</string>
+          <string>GDB 스텁 사용</string>
          </property>
         </widget>
        </item>
@@ -638,7 +638,7 @@
        <item row="1" column="6">
         <widget class="QCheckBox" name="cbGdbBOSA9">
          <property name="text">
-          <string>Break on startup</string>
+          <string>시작 시 중단</string>
          </property>
         </widget>
        </item>
@@ -671,7 +671,7 @@
        <item row="2" column="6">
         <widget class="QCheckBox" name="cbGdbBOSA7">
          <property name="text">
-          <string>Break on startup</string>
+          <string>시작 시 중단</string>
          </property>
         </widget>
        </item>

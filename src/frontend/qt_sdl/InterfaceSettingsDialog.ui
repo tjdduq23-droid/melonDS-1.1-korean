@@ -17,7 +17,7 @@
    </sizepolicy>
   </property>
   <property name="windowTitle">
-   <string>Interface settings - melonDS</string>
+   <string>인터페이스 설정 - melonDS</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0,0">
    <property name="sizeConstraint">
@@ -26,7 +26,7 @@
    <item>
     <widget class="QGroupBox" name="groupBox">
      <property name="title">
-      <string>User interface</string>
+      <string>사용자 인터페이스</string>
      </property>
      <layout class="QVBoxLayout" name="verticalLayout_2">
       <item>
@@ -34,7 +34,7 @@
         <item>
          <widget class="QLabel" name="label_4">
           <property name="text">
-           <string>Theme</string>
+           <string>테마</string>
           </property>
           <property name="buddy">
            <cstring>cbxUITheme</cstring>
@@ -49,7 +49,7 @@
       <item>
        <widget class="QCheckBox" name="cbMouseHide">
         <property name="text">
-         <string>Hide mouse after inactivity</string>
+         <string>일정 시간 후 마우스 숨기기</string>
         </property>
        </widget>
       </item>
@@ -61,7 +61,7 @@
         <item>
          <widget class="QLabel" name="label">
           <property name="text">
-           <string>After</string>
+           <string>대기 시간</string>
           </property>
           <property name="buddy">
            <cstring>spinMouseHideSeconds</cstring>
@@ -74,7 +74,7 @@
         <item>
          <widget class="QLabel" name="label_2">
           <property name="text">
-           <string>seconds</string>
+           <string>초</string>
           </property>
           <property name="buddy">
            <cstring>spinMouseHideSeconds</cstring>
@@ -86,7 +86,7 @@
       <item>
        <widget class="QCheckBox" name="cbPauseLostFocus">
         <property name="text">
-         <string>Pause emulation when window is not in focus</string>
+         <string>창이 비활성화되면 에뮬레이션 일시 정지</string>
         </property>
        </widget>
       </item>
@@ -110,14 +110,14 @@
         <item row="0" column="0">
          <widget class="QLabel" name="label_5">
           <property name="text">
-           <string>Target FPS</string>
+           <string>목표 FPS</string>
           </property>
          </widget>
         </item>
         <item row="1" column="0">
          <widget class="QLabel" name="label_3">
           <property name="text">
-           <string>Fast-Forward</string>
+           <string>고속 배속</string>
           </property>
           <property name="buddy">
            <cstring>spinFFW</cstring>
@@ -217,7 +217,7 @@
         <item row="2" column="0">
          <widget class="QLabel" name="label_6">
           <property name="text">
-           <string>Slow-Mo</string>
+           <string>슬로모션</string>
           </property>
          </widget>
         </item>
@@ -235,7 +235,7 @@
              </size>
             </property>
             <property name="text">
-             <string>Accurate</string>
+             <string>정확하게</string>
             </property>
            </widget>
           </item>
@@ -248,7 +248,7 @@
              </size>
             </property>
             <property name="text">
-             <string>Clean</string>
+             <string>깔끔하게</string>
             </property>
            </widget>
           </item>
