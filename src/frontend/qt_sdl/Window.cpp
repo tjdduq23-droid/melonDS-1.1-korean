@@ -259,7 +259,7 @@ MainWindow::MainWindow(int id, EmuInstance* inst, QWidget* parent) :
 
     showOSD = windowCfg.GetBool("ShowOSD");
 
-    setWindowTitle("melonDS " MELONDS_VERSION);
+    setWindowTitle("melonDS " MELONDS_VERSION " -by 레쿠쟈");
     setAttribute(Qt::WA_DeleteOnClose);
     setAcceptDrops(true);
     setFocusPolicy(Qt::ClickFocus);
