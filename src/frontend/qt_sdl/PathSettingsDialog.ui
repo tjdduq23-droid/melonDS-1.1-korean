@@ -90,7 +90,7 @@
    <item row="4" column="0" colspan="3">
     <widget class="QLabel" name="label">
      <property name="text">
-      <string>Leave a path blank to use the current ROM's path.</string>
+     <string>경로를 비워 두면 현재 ROM이 있는 폴더를 사용합니다.</string>
      </property>
     </widget>
    </item>
