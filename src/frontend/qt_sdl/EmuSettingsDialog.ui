@@ -42,7 +42,7 @@
           </sizepolicy>
          </property>
          <property name="whatsThis">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The type of console to emulate&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;에뮬레이션할 콘솔 종류를 선택합니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
         </widget>
        </item>
@@ -192,7 +192,7 @@
        <item row="0" column="0" colspan="3">
         <widget class="QCheckBox" name="chkExternalBIOS">
          <property name="whatsThis">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Allows using external user-provided BIOS and firmware dumps.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;사용자가 직접 준비한 외부 BIOS 및 펌웨어 덤프를 사용합니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
          <property name="text">
           <string>외부 BIOS/펌웨어 파일 사용</string>
@@ -230,7 +230,7 @@
        <item row="10" column="0" colspan="3">
         <widget class="QCheckBox" name="cbDSiSDEnable">
          <property name="whatsThis">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Simulate a SD card being inserted in the DSi's SD slot.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;DSi의 SD 슬롯에 SD 카드가 삽입된 상태를 에뮬레이션합니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
          <property name="text">
           <string>DSi SD 카드 사용</string>
@@ -385,7 +385,7 @@
        <item row="13" column="0">
         <widget class="QCheckBox" name="cbDSiSDReadOnly">
          <property name="whatsThis">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Make the emulated SD card read-only.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;에뮬레이트된 SD 카드를 읽기 전용으로 설정합니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
          <property name="text">
           <string>SD 카드 읽기 전용</string>
@@ -536,7 +536,7 @@
        <item row="0" column="0" colspan="3">
         <widget class="QCheckBox" name="cbDLDIEnable">
          <property name="whatsThis">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enable the built-in DLDI driver, to let homebrew access files from an emulated SD card.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;내장 DLDI 드라이버를 활성화하여 홈브루가 에뮬레이트된 SD 카드의 파일에 접근할 수 있도록 합니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
          <property name="text">
           <string>DLDI 사용(홈브루용)</string>
@@ -573,7 +573,7 @@
        <item row="3" column="0" colspan="3">
         <widget class="QCheckBox" name="cbDLDIReadOnly">
          <property name="whatsThis">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Make the emulated SD card read-only.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;에뮬레이트된 SD 카드를 읽기 전용으로 설정합니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
          <property name="text">
           <string>SD 카드 읽기 전용</string>

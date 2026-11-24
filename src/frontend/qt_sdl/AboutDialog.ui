@@ -23,7 +23,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>About melonDS</string>
+   <string>melonDS 정보</string>
   </property>
   <property name="modal">
    <bool>false</bool>
@@ -206,7 +206,7 @@
         <bool>true</bool>
        </property>
        <property name="text">
-        <string>Visit the &amp;website</string>
+        <string>&amp;웹사이트 방문</string>
        </property>
        <property name="flat">
         <bool>true</bool>
@@ -219,7 +219,7 @@
         <bool>true</bool>
        </property>
        <property name="text">
-        <string>View on &amp;GitHub</string>
+        <string>&amp;GitHub에서 보기</string>
        </property>
        <property name="flat">
         <bool>true</bool>
@@ -232,7 +232,7 @@
         <bool>true</bool>
        </property>
        <property name="text">
-        <string>&amp;Close</string>
+        <string>닫기(&amp;C)</string>
        </property>
        <property name="default">
         <bool>true</bool>

@@ -17,7 +17,7 @@
    </sizepolicy>
   </property>
   <property name="windowTitle">
-   <string>Join LAN game - melonDS</string>
+   <string>LAN 게임 참가 - melonDS</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
@@ -25,7 +25,7 @@
      <item>
       <widget class="QLabel" name="label">
        <property name="text">
-        <string>Player name:</string>
+        <string>플레이어 이름:</string>
        </property>
       </widget>
      </item>
@@ -70,7 +70,7 @@
    <item>
     <widget class="QLabel" name="label_2">
      <property name="text">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Warning: LAN requires low network latency to work.&lt;/p&gt;&lt;p&gt;Do not expect it to work through a VPN or any sort of tunnel.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;주의: LAN 기능은 낮은 네트워크 지연 시간이 필요합니다.&lt;/p&gt;&lt;p&gt;VPN 또는 기타 터널링 환경에서는 정상적으로 작동하지 않을 수 있습니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
     </widget>
    </item>

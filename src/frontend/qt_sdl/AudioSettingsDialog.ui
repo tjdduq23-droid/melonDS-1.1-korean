@@ -46,7 +46,7 @@
       <item row="2" column="1">
        <widget class="QSlider" name="slVolume">
         <property name="whatsThis">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Controls the volume of the audio output.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;오디오 출력 음량을 조절합니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
         <property name="maximum">
          <number>256</number>
@@ -62,7 +62,7 @@
       <item row="3" column="1">
         <widget class="QCheckBox" name="chkSyncDSiVolume">
          <property name="whatsThis">
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Synchronizes the output volume with the DSi hardware volume.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;출력 음량을 DSi 하드웨어 음량과 동기화합니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
          <property name="text">
           <string>DSi 음량과 동기화</string>
@@ -103,7 +103,7 @@
       <item row="1" column="1">
        <widget class="QComboBox" name="cbBitDepth">
         <property name="whatsThis">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The bit depth of audio playback. If set to &quot;Automatic&quot; this will be 10-bit for DS mode and 16-bit for DSi mode.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The bit depth of audio playback. If set to "Automatic" this will be 10-bit for DS mode and 16-bit for DSi mode.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
       </item>
@@ -149,7 +149,7 @@
       <item row="1" column="0">
        <widget class="QRadioButton" name="rbMicExternal">
         <property name="whatsThis">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Input from an external microphone, if available, will be forwarded to the emulated microphone.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;사용 가능한 외부 마이크의 입력을 에뮬레이트된 마이크로 전달합니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
         <property name="text">
          <string>외부 마이크</string>
@@ -159,7 +159,7 @@
       <item row="1" column="1" colspan="2">
         <widget class="QComboBox" name="cbMic">
          <property name="whatsThis"> 
-          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The selected microphone to be used.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>       
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;사용할 마이크를 선택합니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>       
          </property>
         </widget>
       </item>
@@ -176,7 +176,7 @@
       <item row="0" column="0" colspan="3">
        <widget class="QRadioButton" name="rbMicNone">
         <property name="whatsThis">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;No microphone input.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;마이크 입력을 사용하지 않습니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
         <property name="text">
          <string>없음</string>

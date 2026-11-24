@@ -52,7 +52,7 @@ AudioSettingsDialog::AudioSettingsDialog(QWidget* parent) : QDialog(parent), ui(
     volume = oldVolume;
     dsiSync = oldDSiSync;
 
-    ui->cbInterpolation->addItem("None");
+    ui->cbInterpolation->addItem("없음");
     ui->cbInterpolation->addItem("Linear");
     ui->cbInterpolation->addItem("Cosine");
     ui->cbInterpolation->addItem("Cubic");

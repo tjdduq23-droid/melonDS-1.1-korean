@@ -100,12 +100,12 @@ ROMInfoDialog::ROMInfoDialog(QWidget* parent) : QDialog(parent), ui(new Ui::ROMI
     if (banner->Version > 1)
         ui->chineseTitle->setText(QString::fromUtf16(banner->ChineseTitle));
     else
-        ui->chineseTitle->setText("None");
+        ui->chineseTitle->setText("없음");
 
     if (banner->Version > 2)
         ui->koreanTitle->setText(QString::fromUtf16(banner->KoreanTitle));
     else
-        ui->koreanTitle->setText("None");
+        ui->koreanTitle->setText("없음");
 
     ui->gameTitle->setText(QString::fromLatin1(header.GameTitle, 12));
     ui->gameCode->setText(QString::fromLatin1(header.GameCode, 4));

@@ -122,7 +122,7 @@ LANStartClientDialog::LANStartClientDialog(QWidget* parent) : QDialog(parent), u
     connect(ui->tvAvailableGames->selectionModel(), SIGNAL(selectionChanged(const QItemSelection&, const QItemSelection&)),
             this, SLOT(onGameSelectionChanged(const QItemSelection&, const QItemSelection&)));
 
-    ui->buttonBox->button(QDialogButtonBox::Ok)->setText("Connect");
+    ui->buttonBox->button(QDialogButtonBox::Ok)->setText("연결");
     ui->buttonBox->button(QDialogButtonBox::Ok)->setEnabled(false);
 
     QPushButton* btn = ui->buttonBox->addButton("Direct connect...", QDialogButtonBox::ActionRole);
@@ -411,7 +411,7 @@ void LANDialog::doUpdatePlayerList()
         if (player.IsLocalPlayer)
         {
             model->item(i, 3)->setText("-");
-            model->item(i, 4)->setText("(local)");
+            model->item(i, 4)->setText("(로컬)");
         }
         else
         {

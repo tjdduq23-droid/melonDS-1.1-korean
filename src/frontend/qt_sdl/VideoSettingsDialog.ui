@@ -42,7 +42,7 @@
       <item row="2" column="0">
        <widget class="QCheckBox" name="cbBetterPolygons">
         <property name="whatsThis">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enabling this may help reduce distortion on quads and more complex polygons, but may also reduce performance.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;이 옵션을 활성화하면 사각형 및 복잡한 다각형의 왜곡을 줄일 수 있지만 성능이 저하될 수 있습니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
         <property name="text">
          <string>폴리곤 분할 개선</string>
@@ -75,7 +75,7 @@
       <item row="0" column="0">
        <widget class="QCheckBox" name="cbSoftwareThreaded">
         <property name="whatsThis">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Run the software renderer on a separate thread. Yields better performance on multi-core CPUs.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;소프트웨어 렌더러를 별도 스레드에서 실행합니다. 멀티코어 CPU에서 성능이 향상될 수 있습니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
         <property name="text">
          <string>별도 스레드 사용</string>
@@ -117,7 +117,7 @@
       <item row="5" column="0" colspan="2">
        <widget class="QCheckBox" name="cbGLDisplay">
         <property name="whatsThis">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Use OpenGL to draw the DS screens to the main window. May result in better frame pacing. Mandatory when using the OpenGL 3D renderer.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;OpenGL을 사용하여 DS 화면을 메인 창에 출력합니다. 프레임 전달이 더 안정적일 수 있으며 OpenGL 3D 렌더러 사용 시 필수입니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
         <property name="text">
          <string>OpenGL 화면 출력</string>
@@ -143,7 +143,7 @@
       <item row="6" column="0" colspan="2">
        <widget class="QCheckBox" name="cbVSync">
         <property name="whatsThis">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When using OpenGL, synchronize the video output to your monitor's refresh rate.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;OpenGL 사용 시 영상 출력을 모니터 주사율에 동기화합니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
         <property name="text">
          <string>수직 동기화(VSync)</string>
@@ -169,7 +169,7 @@
       <item row="2" column="0" colspan="2">
        <widget class="QRadioButton" name="rb3DOpenGL">
         <property name="whatsThis">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The OpenGL renderer may be faster than software and supports graphical enhancements, but is more prone to glitches.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;OpenGL 렌더러는 소프트웨어 렌더러보다 빠를 수 있고 그래픽 향상 기능을 지원하지만, 그래픽 오류가 더 자주 발생할 수 있습니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
         <property name="text">
          <string>OpenGL(클래식)</string>
@@ -179,7 +179,7 @@
       <item row="1" column="0" colspan="2">
        <widget class="QRadioButton" name="rb3DSoftware">
         <property name="whatsThis">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The software renderer is more accurate and less prone to rendering glitches, but requires more CPU power.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;소프트웨어 렌더러는 더 정확하고 그래픽 오류가 적지만 CPU 성능을 더 많이 사용합니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
         <property name="text">
          <string>소프트웨어</string>

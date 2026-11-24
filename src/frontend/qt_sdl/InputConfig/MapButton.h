@@ -103,7 +103,7 @@ private slots:
     {
         if (isChecked())
         {
-            setText("[press key]");
+            setText("[키를 누르세요]");
         }
         else
         {
@@ -116,7 +116,7 @@ private:
     {
         int key = *mapping;
 
-        if (key == -1) return "None";
+        if (key == -1) return "없음";
 
         QString isright = (key & (1<<31)) ? "Right " : "Left ";
         key &= ~(1<<31);
@@ -302,7 +302,7 @@ private slots:
     {
         if (isChecked())
         {
-            setText("[press button/axis]");
+            setText("[버튼/축을 누르세요]");
             timerID = startTimer(50);
 
             memset(axesRest, 0, sizeof(axesRest));
@@ -333,7 +333,7 @@ private:
     {
         int id = *mapping;
 
-        if (id == -1) return "None";
+        if (id == -1) return "없음";
 
         bool hasbtn = ((id & 0xFFFF) != 0xFFFF);
         QString str;

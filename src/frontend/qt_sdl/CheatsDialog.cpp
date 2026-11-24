@@ -464,7 +464,7 @@ void CheatsDialog::populateCheatInfo()
         ui->txtItemDesc->clear();
         ui->txtItemDesc->setReadOnly(true);
 
-        ui->chkItemOption->setText("Enabled");
+        ui->chkItemOption->setText("활성화됨");
         ui->chkItemOption->setChecked(false);
         ui->chkItemOption->setEnabled(false);
 
@@ -496,7 +496,7 @@ void CheatsDialog::populateCheatInfo()
         ui->txtItemDesc->setText(QString::fromStdString(cat->Description));
         ui->txtItemDesc->setReadOnly(true);
 
-        ui->chkItemOption->setText("Only allow one code enabled");
+        ui->chkItemOption->setText("한 번에 하나의 코드만 활성화");
         ui->chkItemOption->setChecked(cat->OnlyOneCodeEnabled);
         ui->chkItemOption->setEnabled(false);
 
@@ -519,7 +519,7 @@ void CheatsDialog::populateCheatInfo()
         ui->txtItemDesc->setText(QString::fromStdString(code->Description));
         ui->txtItemDesc->setReadOnly(true);
 
-        ui->chkItemOption->setText("Enabled");
+        ui->chkItemOption->setText("활성화됨");
         ui->chkItemOption->setChecked(code->Enabled);
         ui->chkItemOption->setEnabled(false);
 

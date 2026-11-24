@@ -320,7 +320,7 @@ void CheatImportDialog::populateCheatInfo()
         // category
 
         ui->gbCodeInfo->show();
-        ui->gbCodeInfo->setTitle("Selected category");
+        ui->gbCodeInfo->setTitle("선택한 분류");
 
         auto cat = index.data(Qt::UserRole+1).value<ARCodeCat*>();
         QString catname = QString::fromStdString(cat->Name);
@@ -329,7 +329,7 @@ void CheatImportDialog::populateCheatInfo()
 
         ui->lblCodeName->setText(catname);
         ui->lblCodeDesc->setText(catdesc);
-        ui->lblCodeStatusLabel->setText("Code enable:");
+        ui->lblCodeStatusLabel->setText("코드 활성화:");
         ui->lblCodeStatus->setText(codeenable);
 
         ui->lblCodeCodeLabel->hide();
@@ -340,16 +340,16 @@ void CheatImportDialog::populateCheatInfo()
         // cheat
 
         ui->gbCodeInfo->show();
-        ui->gbCodeInfo->setTitle("Selected code");
+        ui->gbCodeInfo->setTitle("선택한 코드");
 
         auto code = index.data(Qt::UserRole+1).value<ARCode*>();
         QString codename = QString::fromStdString(code->Name);
         QString codedesc = QString::fromStdString(code->Description);
-        QString codeenable = code->Enabled ? "Enabled" : "Disabled";
+        QString codeenable = code->Enabled ? "활성화됨" : "Disabled";
 
         ui->lblCodeName->setText(codename);
         ui->lblCodeDesc->setText(codedesc);
-        ui->lblCodeStatusLabel->setText("Status:");
+        ui->lblCodeStatusLabel->setText("상태:");
         ui->lblCodeStatus->setText(codeenable);
 
         QString codecode = "";
