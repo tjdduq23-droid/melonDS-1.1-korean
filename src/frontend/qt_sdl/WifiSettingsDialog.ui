@@ -50,7 +50,7 @@
       <item row="1" column="0">
        <widget class="QRadioButton" name="rbIndirectMode">
         <property name="whatsThis">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Indirect mode uses libslirp. It requires no extra setup and is easy to use.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;간접 모드는 libslirp를 사용합니다. 별도의 설정이 필요하지 않아 간편하게 사용할 수 있습니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
         <property name="text">
          <string>간접 모드(libslirp 사용, 권장)</string>
@@ -60,7 +60,7 @@
       <item row="2" column="0">
        <widget class="QRadioButton" name="rbDirectMode">
         <property name="whatsThis">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Direct mode directly routes network traffic to the host network. It is the most reliable, but requires an ethernet connection.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;Non-direct mode uses a layer of emulation to get around this, but is more prone to problems.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;직접 모드는 네트워크 트래픽을 호스트 네트워크로 직접 전달합니다. 가장 안정적인 연결 방식이지만, 이더넷 연결이 필요합니다.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;간접 모드는 에뮬레이션 계층을 사용하여 이러한 제약을 우회하지만, 문제가 발생할 가능성이 더 높습니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
         <property name="text">
          <string>직접 모드</string>
