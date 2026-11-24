@@ -2202,7 +2202,7 @@ void MainWindow::onTitleUpdate(QString title)
         title = prefix + title;
     }
 
-    setWindowTitle(title);
+    setWindowTitle(title + " -by 레쿠쟈");
 }
 
 void MainWindow::toggleFullscreen()

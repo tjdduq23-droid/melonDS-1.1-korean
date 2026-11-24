@@ -40,12 +40,12 @@ static constexpr std::initializer_list<int> hk_addons =
 
 static constexpr std::initializer_list<const char*> hk_addons_labels =
 {
-    "[Boktai] Sunlight + ",
-    "[Boktai] Sunlight - ",
-    "[Guitar Grip] Green",
-    "[Guitar Grip] Red",
-    "[Guitar Grip] Yellow",
-    "[Guitar Grip] Blue",
+    "[보쿠타이] 태양광 + ",
+    "[보쿠타이] 태양광 - ",
+    "[기타 그립] 초록",
+    "[기타 그립] 빨강",
+    "[기타 그립] 노랑",
+    "[기타 그립] 파랑",
 };
 
 static_assert(hk_addons.size() == hk_addons_labels.size());
@@ -72,22 +72,22 @@ static constexpr std::initializer_list<int> hk_general =
 
 static constexpr std::initializer_list<const char*> hk_general_labels =
 {
-    "Pause/resume",
-    "Reset",
-    "Frame step",
-    "Fast forward",
-    "Toggle fast forward",
-    "Slow mo",
-    "Toggle slow mo",
-    "Toggle FPS limit",
-    "Toggle fullscreen",
-    "Close/open lid",
-    "Microphone",
-    "Swap screens",
-    "Swap screen emphasis",
-    "DSi Power button",
-    "DSi Volume up",
-    "DSi Volume down"
+    "일시정지/재개",
+    "초기화",
+    "프레임 단위 진행",
+    "빨리 감기",
+    "빨리 감기 전환",
+    "슬로 모션",
+    "슬로 모션 전환",
+    "FPS 제한 전환",
+    "전체 화면 전환",
+    "덮개 닫기/열기",
+    "마이크",
+    "화면 순서 바꾸기",
+    "화면 강조 전환",
+    "DSi 전원 버튼",
+    "DSi 음량 높이기",
+    "DSi 음량 낮추기"
 };
 
 static_assert(hk_general.size() == hk_general_labels.size());
